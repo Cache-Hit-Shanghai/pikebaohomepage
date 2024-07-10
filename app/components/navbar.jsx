@@ -44,7 +44,7 @@ export function PikebaoNavbar() {
 					</Link>
 				</NavbarItem>
 			</NavbarContent>
-			<NavbarContent justify='end'>
+			<NavbarContent justify='center'>
 				<NavbarItem className='hidden lg:flex'>
 					<Link href='#'>登录</Link>
 				</NavbarItem>
