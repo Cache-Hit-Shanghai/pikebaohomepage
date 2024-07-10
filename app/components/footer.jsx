@@ -30,15 +30,26 @@ export function PikebaoFooter() {
 					</div>
 				</div>
 				<Divider className='bg-gray-200 opacity-70' />
-				<div className='text-gray-200 opacity-70 py-5 text-sm flex flex-row gap-4'>
-					<span>&copy; 2024 Pixelbot</span>
-					<Link isExternal underline='hover' href='https://beian.miit.gov.cn/'>
-						<span className='text-sm'>沪ICP备2024079873号</span>
+				<div className='py-5 flex flex-row gap-4'>
+					<span className='text-sm text-gray-200 opacity-70'>
+						&copy; 2024 Pixelbot
+					</span>
+					<Link
+						isExternal
+						color='foreground'
+						underline='hover'
+						href='https://beian.miit.gov.cn/'
+					>
+						<span className='text-sm text-gray-200 opacity-70'>
+							沪ICP备2024079873号
+						</span>
 					</Link>
-					<span>上海皮可宝机器人科技有限公司</span>
-					<span>隐私政策</span>
-					<span>条款与条件</span>
-					<span>证书</span>
+					<span className='text-sm text-gray-200 opacity-70'>
+						上海皮可宝机器人科技有限公司
+					</span>
+					<span className='text-sm text-gray-200 opacity-70'>隐私政策</span>
+					<span className='text-sm text-gray-200 opacity-70'>条款与条件</span>
+					<span className='text-sm text-gray-200 opacity-70'>证书</span>
 				</div>
 			</div>
 		</div>

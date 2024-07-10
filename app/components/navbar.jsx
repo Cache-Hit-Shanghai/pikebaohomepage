@@ -11,10 +11,12 @@ import { PikebaoIcon } from './logo';
 export function PikebaoNavbar() {
 	return (
 		<Navbar isBlurred>
-			<NavbarBrand className='flex flex-row gap-2'>
-				<PikebaoIcon className='w-8 h-8' />
-				<p className='font-bold text-inherit'>PIXELBOT</p>
-			</NavbarBrand>
+			<Link href='#' color='foreground'>
+				<NavbarBrand className='flex flex-row gap-2'>
+					<PikebaoIcon className='w-8 h-8' />
+					<p className='font-bold text-inherit'>PIXELBOT</p>
+				</NavbarBrand>
+			</Link>
 			<NavbarContent className='hidden sm:flex gap-4' justify='center'>
 				<NavbarItem>
 					<Link color='foreground' href='#'>
