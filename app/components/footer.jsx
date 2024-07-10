@@ -10,7 +10,7 @@ export function PikebaoFooter() {
 						<div className='pb-4 opacity-70'>公司介绍</div>
 						<div className='py-4'>帮助</div>
 						<div className='pb-4 opacity-70'>皮可宝APP下载</div>
-						<div className='pb-4 opacity-70'>联系方式：</div>
+						<div className='pb-4 opacity-70'>联系方式：18069427409@163.com</div>
 						<div className='pb-4 opacity-70'>网址：pikebao.com</div>
 					</div>
 					<div className='text-sm'>
