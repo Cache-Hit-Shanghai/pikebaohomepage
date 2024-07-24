@@ -14,7 +14,7 @@ export function PikebaoNavbar() {
 			<Link href='#' color='foreground'>
 				<NavbarBrand className='flex flex-row gap-2'>
 					<PikebaoIcon className='w-8 h-8' />
-					<p className='font-bold text-inherit'>PIXELBOT</p>
+					<p className='font-bold text-inherit'>皮可宝</p>
 				</NavbarBrand>
 			</Link>
 			<NavbarContent className='hidden sm:flex gap-4' justify='center'>
