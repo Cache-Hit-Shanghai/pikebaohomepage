@@ -5,16 +5,15 @@ import {
 	NavbarItem,
 	Link,
 	Button,
+	Image,
 } from '@nextui-org/react';
-import { PikebaoIcon } from './logo';
 
 export function PikebaoNavbar() {
 	return (
 		<Navbar isBlurred>
-			<Link href='#' color='foreground'>
-				<NavbarBrand className='flex flex-row gap-2'>
-					<PikebaoIcon className='w-8 h-8' />
-					<p className='font-bold text-inherit'>皮可宝</p>
+			<Link href='#' className='h-full'>
+				<NavbarBrand className='flex flex-row gap-2 m-w-0 w-fit h-full'>
+					<Image className='w-auto h-full' removeWrapper src='https://pixelbot.oss-accelerate.aliyuncs.com/pikebaologo.svg' />
 				</NavbarBrand>
 			</Link>
 			<NavbarContent className='hidden sm:flex gap-4' justify='center'>
