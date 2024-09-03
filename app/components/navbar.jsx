@@ -13,7 +13,11 @@ export function PikebaoNavbar() {
 		<Navbar isBlurred>
 			<Link href='#' className='h-full'>
 				<NavbarBrand className='flex flex-row gap-2 m-w-0 w-fit h-full'>
-					<Image className='w-auto h-full' removeWrapper src='https://pixelbot.oss-accelerate.aliyuncs.com/pikebaologo.svg' />
+					<Image
+						className='w-auto h-full py-1'
+						removeWrapper
+						src='https://pixelbot.oss-accelerate.aliyuncs.com/pikebaologo2.svg'
+					/>
 				</NavbarBrand>
 			</Link>
 			<NavbarContent className='hidden sm:flex gap-4' justify='center'>
