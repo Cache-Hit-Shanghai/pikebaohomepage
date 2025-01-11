@@ -1,0 +1,14 @@
+{
+	apps: [
+		{
+			name: 'pikebaohomepage',
+			script: './app/page.jsx',
+			log_date_format: 'YYYY-MM-DD HH:mm:ss.SSS',
+			exec_mode: 'fork',
+			instances: 1,
+			env: {
+				NODE_PORT: 3000,
+			},
+		},
+	],
+}
