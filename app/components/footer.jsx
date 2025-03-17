@@ -47,11 +47,11 @@ export function PikebaoFooter() {
 						href='https://beian.miit.gov.cn/'
 					>
 						<span className='whitespace-nowrap text-sm text-gray-200 opacity-70'>
-							沪ICP备2024079873号
+							苏ICP备2025166903号
 						</span>
 					</Link>
 					<span className='whitespace-nowrap text-sm text-gray-200 opacity-70'>
-						上海皮可宝机器人科技有限公司
+						苏州皮可宝机器人科技有限公司
 					</span>
 					<span className='whitespace-nowrap text-sm text-gray-200 opacity-70'>
 						隐私政策
