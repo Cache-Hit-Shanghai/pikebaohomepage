@@ -1,0 +1,11 @@
+{
+	apps: [
+		{
+			name: 'pikebaohomepage',
+			script: 'npx next start -p 3000',
+			log_date_format: 'YYYY-MM-DD HH:mm:ss.SSS',
+			exec_mode: 'fork',
+			instances: 1,
+		},
+	],
+}
